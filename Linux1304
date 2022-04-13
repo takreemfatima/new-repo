@@ -1,0 +1,19 @@
+#! bin/bash/
+echo "this is Takreem Fatima"
+# addition
+echo "enter 1st no:"
+read a
+echo "enter 2nd no:"
+read b
+s=`expr $a + $b`
+echo "Result : $s"
+# multiply
+echo "enter 1st no:"
+read a
+echo "enter 2nd no:"
+read b
+s=`expr $a \* $b`
+echo "Result : $s"
+# content
+echo -e "This is my first Shell Script \n dated 13 April"
+echo -e "To use tab \t it is used as a Tab"
